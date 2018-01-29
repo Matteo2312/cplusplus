@@ -44,5 +44,16 @@ void exo4(double nb1, double nb2, double nb3)
 	}
 	
 }
+double exo5(double prix)
+{
+	double final;
+	if (prix > 100)
+		final = prix - ((prix * 5) / 100);
+	if (prix > 300)
+		final = prix - ((prix * 8) / 100);
+	return final;
+
+		
+}
 #endif // MY_HEADER_HPP
 
