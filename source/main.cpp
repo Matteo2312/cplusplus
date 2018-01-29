@@ -15,5 +15,6 @@ int main()
 	exo2(0, 10);
 	exo2(20, 10);
 	r3 = exo3(5);
+	exo4(1, 5, 6);
 	return 0;
 }
